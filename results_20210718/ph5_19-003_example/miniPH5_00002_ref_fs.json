@@ -1,0 +1,1702 @@
+{
+  "refs": {
+    ".zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"PYTABLES_FORMAT_VERSION\": \"2.1\",\n    \"TITLE\": \"PIC KITCHEN HDF5 file, Version = 4.1.2\",\n    \"VERSION\": \"1.0\"\n}",
+    ".zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0001/.zarray": "{\n    \"chunks\": [\n        1638\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"|S40\",\n    \"fill_value\": \"\",\n    \"filters\": [\n        {\n            \"elementsize\": 40,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        378\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"SEG-D header entries: 1X901\"\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0001/0": [
+      "{{u}}",
+      1978457,
+      2697
+    ],
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0002/.zarray": "{\n    \"chunks\": [\n        1638\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"|S40\",\n    \"fill_value\": \"\",\n    \"filters\": [\n        {\n            \"elementsize\": 40,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        1134\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"SEG-D header entries: 1X901\"\n}",
+    "Experiment_g/Maps_g/Das_g_1X901/Hdr_a_0002/0": [
+      "{{u}}",
+      9677736,
+      2902
+    ],
+    "Experiment_g/Receivers_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555697630 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/0": [
+      "{{u}}",
+      103968,
+      34204
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/1": [
+      "{{u}}",
+      138172,
+      34141
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/10": [
+      "{{u}}",
+      445039,
+      34086
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/11": [
+      "{{u}}",
+      479125,
+      34234
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/12": [
+      "{{u}}",
+      513359,
+      34020
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/13": [
+      "{{u}}",
+      547379,
+      34202
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/14": [
+      "{{u}}",
+      581581,
+      33906
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/15": [
+      "{{u}}",
+      615487,
+      33998
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/16": [
+      "{{u}}",
+      649485,
+      33819
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/17": [
+      "{{u}}",
+      683304,
+      34143
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/18": [
+      "{{u}}",
+      717447,
+      34072
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/19": [
+      "{{u}}",
+      751519,
+      33766
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/2": [
+      "{{u}}",
+      172313,
+      34233
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/20": [
+      "{{u}}",
+      785285,
+      33750
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/21": [
+      "{{u}}",
+      819035,
+      33897
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/22": [
+      "{{u}}",
+      852932,
+      34470
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/23": [
+      "{{u}}",
+      890426,
+      33798
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/24": [
+      "{{u}}",
+      924224,
+      33747
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/25": [
+      "{{u}}",
+      957971,
+      33687
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/26": [
+      "{{u}}",
+      991658,
+      33930
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/27": [
+      "{{u}}",
+      1025588,
+      33652
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/28": [
+      "{{u}}",
+      1059240,
+      34240
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/29": [
+      "{{u}}",
+      1093480,
+      34122
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/3": [
+      "{{u}}",
+      206546,
+      34217
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/30": [
+      "{{u}}",
+      1127602,
+      34146
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/31": [
+      "{{u}}",
+      1161748,
+      33941
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/32": [
+      "{{u}}",
+      1195689,
+      34008
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/33": [
+      "{{u}}",
+      1229697,
+      34157
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/34": [
+      "{{u}}",
+      1263854,
+      34371
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/35": [
+      "{{u}}",
+      1298225,
+      34170
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/36": [
+      "{{u}}",
+      1332395,
+      33922
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/37": [
+      "{{u}}",
+      1366317,
+      33863
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/38": [
+      "{{u}}",
+      1400180,
+      34037
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/39": [
+      "{{u}}",
+      1434217,
+      34027
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/4": [
+      "{{u}}",
+      240763,
+      34362
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/40": [
+      "{{u}}",
+      1468244,
+      34303
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/41": [
+      "{{u}}",
+      1502547,
+      34092
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/42": [
+      "{{u}}",
+      1536639,
+      34215
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/43": [
+      "{{u}}",
+      1570854,
+      33853
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/44": [
+      "{{u}}",
+      1604707,
+      33780
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/45": [
+      "{{u}}",
+      1638487,
+      34121
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/46": [
+      "{{u}}",
+      1672608,
+      34058
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/47": [
+      "{{u}}",
+      1706666,
+      34193
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/48": [
+      "{{u}}",
+      1740859,
+      33971
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/49": [
+      "{{u}}",
+      1774830,
+      34501
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/5": [
+      "{{u}}",
+      275125,
+      34118
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/50": [
+      "{{u}}",
+      1809331,
+      33886
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/51": [
+      "{{u}}",
+      1843217,
+      34559
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/52": [
+      "{{u}}",
+      1877776,
+      34373
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/53": [
+      "{{u}}",
+      1912149,
+      34250
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/54": [
+      "{{u}}",
+      1946399,
+      32058
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/6": [
+      "{{u}}",
+      309243,
+      33732
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/7": [
+      "{{u}}",
+      342975,
+      34123
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/8": [
+      "{{u}}",
+      377098,
+      34006
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0001/9": [
+      "{{u}}",
+      411104,
+      33935
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555701230 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/0": [
+      "{{u}}",
+      1983642,
+      34271
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/1": [
+      "{{u}}",
+      2017913,
+      34080
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/10": [
+      "{{u}}",
+      2324179,
+      33959
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/11": [
+      "{{u}}",
+      2358138,
+      34205
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/12": [
+      "{{u}}",
+      2392343,
+      34086
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/13": [
+      "{{u}}",
+      2426429,
+      34121
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/14": [
+      "{{u}}",
+      2460550,
+      34311
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/15": [
+      "{{u}}",
+      2494861,
+      34387
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/16": [
+      "{{u}}",
+      2529248,
+      34326
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/17": [
+      "{{u}}",
+      2563574,
+      34139
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/18": [
+      "{{u}}",
+      2597713,
+      34097
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/19": [
+      "{{u}}",
+      2631810,
+      33802
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/2": [
+      "{{u}}",
+      2051993,
+      33903
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/20": [
+      "{{u}}",
+      2665612,
+      33613
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/21": [
+      "{{u}}",
+      2699225,
+      33995
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/22": [
+      "{{u}}",
+      2733220,
+      33892
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/23": [
+      "{{u}}",
+      2769160,
+      34183
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/24": [
+      "{{u}}",
+      2803343,
+      34129
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/25": [
+      "{{u}}",
+      2837472,
+      34402
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/26": [
+      "{{u}}",
+      2871874,
+      34577
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/27": [
+      "{{u}}",
+      2906451,
+      34536
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/28": [
+      "{{u}}",
+      2940987,
+      34429
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/29": [
+      "{{u}}",
+      2975416,
+      34275
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/3": [
+      "{{u}}",
+      2085896,
+      34121
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/30": [
+      "{{u}}",
+      3009691,
+      34506
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/31": [
+      "{{u}}",
+      3044197,
+      34293
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/32": [
+      "{{u}}",
+      3078490,
+      34488
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/33": [
+      "{{u}}",
+      3112978,
+      34844
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/34": [
+      "{{u}}",
+      3147822,
+      35450
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/35": [
+      "{{u}}",
+      3183272,
+      35694
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/36": [
+      "{{u}}",
+      3218966,
+      34155
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/37": [
+      "{{u}}",
+      3253121,
+      34150
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/38": [
+      "{{u}}",
+      3287271,
+      35048
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/39": [
+      "{{u}}",
+      3322319,
+      295
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/4": [
+      "{{u}}",
+      2120017,
+      34192
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/40": [
+      "{{u}}",
+      3322614,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/41": [
+      "{{u}}",
+      3322698,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/42": [
+      "{{u}}",
+      3322782,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/43": [
+      "{{u}}",
+      3322866,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/44": [
+      "{{u}}",
+      3322950,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/45": [
+      "{{u}}",
+      3323034,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/46": [
+      "{{u}}",
+      3323118,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/47": [
+      "{{u}}",
+      3323202,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/48": [
+      "{{u}}",
+      3323286,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/49": [
+      "{{u}}",
+      3323370,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/5": [
+      "{{u}}",
+      2154209,
+      34094
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/50": [
+      "{{u}}",
+      3323454,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/51": [
+      "{{u}}",
+      3323538,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/52": [
+      "{{u}}",
+      3323622,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/53": [
+      "{{u}}",
+      3323706,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/54": [
+      "{{u}}",
+      3323790,
+      93
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/6": [
+      "{{u}}",
+      2188303,
+      34142
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/7": [
+      "{{u}}",
+      2222445,
+      34054
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/8": [
+      "{{u}}",
+      2256499,
+      33912
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0002/9": [
+      "{{u}}",
+      2290411,
+      33768
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555697630 Channel: 2\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/0": [
+      "{{u}}",
+      3325979,
+      34111
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/1": [
+      "{{u}}",
+      3360090,
+      34111
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/10": [
+      "{{u}}",
+      3666866,
+      34054
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/11": [
+      "{{u}}",
+      3700920,
+      34184
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/12": [
+      "{{u}}",
+      3735104,
+      33961
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/13": [
+      "{{u}}",
+      3769065,
+      34222
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/14": [
+      "{{u}}",
+      3803287,
+      34120
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/15": [
+      "{{u}}",
+      3837407,
+      34143
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/16": [
+      "{{u}}",
+      3871550,
+      33851
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/17": [
+      "{{u}}",
+      3905401,
+      34033
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/18": [
+      "{{u}}",
+      3939434,
+      34130
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/19": [
+      "{{u}}",
+      3973564,
+      34092
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/2": [
+      "{{u}}",
+      3394201,
+      34179
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/20": [
+      "{{u}}",
+      4007656,
+      33993
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/21": [
+      "{{u}}",
+      4041649,
+      33975
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/22": [
+      "{{u}}",
+      4075624,
+      34475
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/23": [
+      "{{u}}",
+      4110099,
+      33983
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/24": [
+      "{{u}}",
+      4144082,
+      34045
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/25": [
+      "{{u}}",
+      4178127,
+      33856
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/26": [
+      "{{u}}",
+      4211983,
+      33995
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/27": [
+      "{{u}}",
+      4245978,
+      33720
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/28": [
+      "{{u}}",
+      4279698,
+      33970
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/29": [
+      "{{u}}",
+      4313668,
+      34089
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/3": [
+      "{{u}}",
+      3428380,
+      34197
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/30": [
+      "{{u}}",
+      4347757,
+      34096
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/31": [
+      "{{u}}",
+      4381853,
+      34029
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/32": [
+      "{{u}}",
+      4415882,
+      34163
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/33": [
+      "{{u}}",
+      4450045,
+      34183
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/34": [
+      "{{u}}",
+      4484228,
+      34315
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/35": [
+      "{{u}}",
+      4518543,
+      34122
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/36": [
+      "{{u}}",
+      4552665,
+      34050
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/37": [
+      "{{u}}",
+      4586715,
+      33968
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/38": [
+      "{{u}}",
+      4620683,
+      34067
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/39": [
+      "{{u}}",
+      4654750,
+      34077
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/4": [
+      "{{u}}",
+      3462577,
+      34199
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/40": [
+      "{{u}}",
+      4688827,
+      34263
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/41": [
+      "{{u}}",
+      4723090,
+      34056
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/42": [
+      "{{u}}",
+      4757146,
+      34048
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/43": [
+      "{{u}}",
+      4791194,
+      34089
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/44": [
+      "{{u}}",
+      4825283,
+      33880
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/45": [
+      "{{u}}",
+      4859163,
+      33994
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/46": [
+      "{{u}}",
+      4893157,
+      34161
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/47": [
+      "{{u}}",
+      4927318,
+      34149
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/48": [
+      "{{u}}",
+      4961467,
+      33972
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/49": [
+      "{{u}}",
+      4995439,
+      34315
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/5": [
+      "{{u}}",
+      3496776,
+      34063
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/50": [
+      "{{u}}",
+      5029754,
+      34031
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/51": [
+      "{{u}}",
+      5063785,
+      34646
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/52": [
+      "{{u}}",
+      5098431,
+      34460
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/53": [
+      "{{u}}",
+      5132891,
+      34381
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/54": [
+      "{{u}}",
+      5167272,
+      32290
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/6": [
+      "{{u}}",
+      3530839,
+      33904
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/7": [
+      "{{u}}",
+      3564743,
+      34006
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/8": [
+      "{{u}}",
+      3598749,
+      34130
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0003/9": [
+      "{{u}}",
+      3632879,
+      33987
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555701230 Channel: 2\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/0": [
+      "{{u}}",
+      5201658,
+      34341
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/1": [
+      "{{u}}",
+      5235999,
+      34025
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/10": [
+      "{{u}}",
+      5543563,
+      34033
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/11": [
+      "{{u}}",
+      5577596,
+      34110
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/12": [
+      "{{u}}",
+      5611706,
+      34112
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/13": [
+      "{{u}}",
+      5645818,
+      34115
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/14": [
+      "{{u}}",
+      5679933,
+      34317
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/15": [
+      "{{u}}",
+      5714250,
+      34431
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/16": [
+      "{{u}}",
+      5748681,
+      34244
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/17": [
+      "{{u}}",
+      5782925,
+      34125
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/18": [
+      "{{u}}",
+      5817050,
+      34407
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/19": [
+      "{{u}}",
+      5851457,
+      33928
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/2": [
+      "{{u}}",
+      5270024,
+      34222
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/20": [
+      "{{u}}",
+      5885385,
+      33979
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/21": [
+      "{{u}}",
+      5919364,
+      34148
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/22": [
+      "{{u}}",
+      5953512,
+      34062
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/23": [
+      "{{u}}",
+      5987574,
+      34389
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/24": [
+      "{{u}}",
+      6021963,
+      34409
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/25": [
+      "{{u}}",
+      6056372,
+      34235
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/26": [
+      "{{u}}",
+      6090607,
+      34518
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/27": [
+      "{{u}}",
+      6125125,
+      34538
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/28": [
+      "{{u}}",
+      6159663,
+      34498
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/29": [
+      "{{u}}",
+      6194161,
+      34196
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/3": [
+      "{{u}}",
+      5304246,
+      34070
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/30": [
+      "{{u}}",
+      6228357,
+      34498
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/31": [
+      "{{u}}",
+      6262855,
+      34164
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/32": [
+      "{{u}}",
+      6297019,
+      34409
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/33": [
+      "{{u}}",
+      6331428,
+      34593
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/34": [
+      "{{u}}",
+      6366021,
+      35801
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/35": [
+      "{{u}}",
+      6401822,
+      35606
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/36": [
+      "{{u}}",
+      6437428,
+      34258
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/37": [
+      "{{u}}",
+      6471686,
+      34207
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/38": [
+      "{{u}}",
+      6505893,
+      35344
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/39": [
+      "{{u}}",
+      6541237,
+      290
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/4": [
+      "{{u}}",
+      5338316,
+      34348
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/40": [
+      "{{u}}",
+      6541527,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/41": [
+      "{{u}}",
+      6541611,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/42": [
+      "{{u}}",
+      6541695,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/43": [
+      "{{u}}",
+      6541779,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/44": [
+      "{{u}}",
+      6541863,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/45": [
+      "{{u}}",
+      6541947,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/46": [
+      "{{u}}",
+      6542031,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/47": [
+      "{{u}}",
+      6542115,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/48": [
+      "{{u}}",
+      6542199,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/49": [
+      "{{u}}",
+      6542283,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/5": [
+      "{{u}}",
+      5372664,
+      34308
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/50": [
+      "{{u}}",
+      6542367,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/51": [
+      "{{u}}",
+      6542451,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/52": [
+      "{{u}}",
+      6542535,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/53": [
+      "{{u}}",
+      6542619,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/54": [
+      "{{u}}",
+      6542703,
+      94
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/6": [
+      "{{u}}",
+      5406972,
+      34263
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/7": [
+      "{{u}}",
+      5441235,
+      34208
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/8": [
+      "{{u}}",
+      5475443,
+      34094
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0004/9": [
+      "{{u}}",
+      5509537,
+      34026
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555697630 Channel: 3\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/0": [
+      "{{u}}",
+      6544893,
+      32762
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/1": [
+      "{{u}}",
+      6577655,
+      32910
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/10": [
+      "{{u}}",
+      6876113,
+      32605
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/11": [
+      "{{u}}",
+      6908718,
+      32948
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/12": [
+      "{{u}}",
+      6941666,
+      33357
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/13": [
+      "{{u}}",
+      6975023,
+      33117
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/14": [
+      "{{u}}",
+      7008140,
+      32695
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/15": [
+      "{{u}}",
+      7040835,
+      32636
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/16": [
+      "{{u}}",
+      7073471,
+      32254
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/17": [
+      "{{u}}",
+      7105725,
+      32681
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/18": [
+      "{{u}}",
+      7138406,
+      32928
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/19": [
+      "{{u}}",
+      7171334,
+      32384
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/2": [
+      "{{u}}",
+      6610565,
+      33208
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/20": [
+      "{{u}}",
+      7203718,
+      32527
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/21": [
+      "{{u}}",
+      7236245,
+      32560
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/22": [
+      "{{u}}",
+      7268805,
+      34136
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/23": [
+      "{{u}}",
+      7302941,
+      33540
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/24": [
+      "{{u}}",
+      7336481,
+      33305
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/25": [
+      "{{u}}",
+      7369786,
+      33563
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/26": [
+      "{{u}}",
+      7403349,
+      32847
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/27": [
+      "{{u}}",
+      7436196,
+      32459
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/28": [
+      "{{u}}",
+      7468655,
+      32976
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/29": [
+      "{{u}}",
+      7501631,
+      33074
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/3": [
+      "{{u}}",
+      6643773,
+      33781
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/30": [
+      "{{u}}",
+      7534705,
+      33157
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/31": [
+      "{{u}}",
+      7567862,
+      33424
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/32": [
+      "{{u}}",
+      7601286,
+      32844
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/33": [
+      "{{u}}",
+      7634130,
+      33079
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/34": [
+      "{{u}}",
+      7667209,
+      33319
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/35": [
+      "{{u}}",
+      7700528,
+      33084
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/36": [
+      "{{u}}",
+      7733612,
+      32857
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/37": [
+      "{{u}}",
+      7766469,
+      32739
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/38": [
+      "{{u}}",
+      7799208,
+      32894
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/39": [
+      "{{u}}",
+      7832102,
+      33269
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/4": [
+      "{{u}}",
+      6677554,
+      33016
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/40": [
+      "{{u}}",
+      7865371,
+      34009
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/41": [
+      "{{u}}",
+      7899380,
+      33843
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/42": [
+      "{{u}}",
+      7933223,
+      33633
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/43": [
+      "{{u}}",
+      7966856,
+      32770
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/44": [
+      "{{u}}",
+      7999626,
+      32290
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/45": [
+      "{{u}}",
+      8031916,
+      32887
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/46": [
+      "{{u}}",
+      8064803,
+      33385
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/47": [
+      "{{u}}",
+      8098188,
+      33040
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/48": [
+      "{{u}}",
+      8131228,
+      32679
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/49": [
+      "{{u}}",
+      8163907,
+      33680
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/5": [
+      "{{u}}",
+      6710570,
+      32789
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/50": [
+      "{{u}}",
+      8197587,
+      32922
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/51": [
+      "{{u}}",
+      8230509,
+      33699
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/52": [
+      "{{u}}",
+      8264208,
+      33353
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/53": [
+      "{{u}}",
+      8297561,
+      33275
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/54": [
+      "{{u}}",
+      8330836,
+      31825
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/6": [
+      "{{u}}",
+      6743359,
+      33433
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/7": [
+      "{{u}}",
+      6776792,
+      33263
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/8": [
+      "{{u}}",
+      6810055,
+      33649
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0005/9": [
+      "{{u}}",
+      6843704,
+      32409
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        900000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1555701230 Channel: 3\"\n}",
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/0": [
+      "{{u}}",
+      8364757,
+      34139
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/1": [
+      "{{u}}",
+      8398896,
+      33798
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/10": [
+      "{{u}}",
+      8698357,
+      32893
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/11": [
+      "{{u}}",
+      8731250,
+      32729
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/12": [
+      "{{u}}",
+      8763979,
+      32936
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/13": [
+      "{{u}}",
+      8796915,
+      32978
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/14": [
+      "{{u}}",
+      8829893,
+      33922
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/15": [
+      "{{u}}",
+      8863815,
+      33710
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/16": [
+      "{{u}}",
+      8897525,
+      33651
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/17": [
+      "{{u}}",
+      8931176,
+      33797
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/18": [
+      "{{u}}",
+      8964973,
+      33525
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/19": [
+      "{{u}}",
+      8998498,
+      33004
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/2": [
+      "{{u}}",
+      8432694,
+      33618
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/20": [
+      "{{u}}",
+      9031502,
+      32674
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/21": [
+      "{{u}}",
+      9064176,
+      32621
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/22": [
+      "{{u}}",
+      9096797,
+      32599
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/23": [
+      "{{u}}",
+      9132060,
+      32999
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/24": [
+      "{{u}}",
+      9165059,
+      33123
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/25": [
+      "{{u}}",
+      9198182,
+      33754
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/26": [
+      "{{u}}",
+      9231936,
+      34068
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/27": [
+      "{{u}}",
+      9266004,
+      34291
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/28": [
+      "{{u}}",
+      9300295,
+      34243
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/29": [
+      "{{u}}",
+      9334538,
+      33407
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/3": [
+      "{{u}}",
+      8466312,
+      33706
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/30": [
+      "{{u}}",
+      9367945,
+      33789
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/31": [
+      "{{u}}",
+      9401734,
+      33866
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/32": [
+      "{{u}}",
+      9435600,
+      34495
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/33": [
+      "{{u}}",
+      9470095,
+      34673
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/34": [
+      "{{u}}",
+      9504768,
+      35296
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/35": [
+      "{{u}}",
+      9540064,
+      34957
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/36": [
+      "{{u}}",
+      9575021,
+      33533
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/37": [
+      "{{u}}",
+      9608554,
+      33260
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/38": [
+      "{{u}}",
+      9641814,
+      34367
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/39": [
+      "{{u}}",
+      9676181,
+      286
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/4": [
+      "{{u}}",
+      8500018,
+      33832
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/40": [
+      "{{u}}",
+      9676467,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/41": [
+      "{{u}}",
+      9676551,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/42": [
+      "{{u}}",
+      9676635,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/43": [
+      "{{u}}",
+      9676719,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/44": [
+      "{{u}}",
+      9676803,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/45": [
+      "{{u}}",
+      9676887,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/46": [
+      "{{u}}",
+      9676971,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/47": [
+      "{{u}}",
+      9677055,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/48": [
+      "{{u}}",
+      9677139,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/49": [
+      "{{u}}",
+      9677223,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/5": [
+      "{{u}}",
+      8533850,
+      33193
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/50": [
+      "{{u}}",
+      9677307,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/51": [
+      "{{u}}",
+      9677391,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/52": [
+      "{{u}}",
+      9677475,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/53": [
+      "{{u}}",
+      9677559,
+      84
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/54": [
+      "{{u}}",
+      9677643,
+      93
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/6": [
+      "{{u}}",
+      8567043,
+      32795
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/7": [
+      "{{u}}",
+      8599838,
+      32995
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/8": [
+      "{{u}}",
+      8632833,
+      32933
+    ],
+    "Experiment_g/Receivers_g/Das_g_1X901/Data_a_0006/9": [
+      "{{u}}",
+      8665766,
+      32591
+    ],
+    "Experiment_g/Reports_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Reports_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Responses_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Sorts_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Sorts_g/.zgroup": "{\n    \"zarr_format\": 2\n}"
+  },
+  "templates": {
+    "u": ""
+  },
+  "version": 1
+}

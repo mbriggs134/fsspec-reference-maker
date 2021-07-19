@@ -1,0 +1,71 @@
+{
+  "refs": {
+    ".zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"PYTABLES_FORMAT_VERSION\": \"2.1\",\n    \"TITLE\": \"PIC KITCHEN HDF5 file, Version = 4.1.2\",\n    \"VERSION\": \"1.0\"\n}",
+    ".zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Reports_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Reports_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Responses_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_100LHN/.zarray": "{\n    \"chunks\": [],\n    \"compressor\": null,\n    \"dtype\": \"|S9734\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_100LHN/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_100LHN/0": [
+      "{{u}}",
+      446076,
+      9734
+    ],
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_200HHN/.zarray": "{\n    \"chunks\": [],\n    \"compressor\": null,\n    \"dtype\": \"|S7562\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_200HHN/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/NoneQ330_NoneCMG3T_200HHN/0": [
+      "{{u}}",
+      438514,
+      7562
+    ],
+    "Experiment_g/Responses_g/ZLAND3C_500_1_24/.zarray": "{\n    \"chunks\": [\n        102\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S87\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        102\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/ZLAND3C_500_1_24/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/ZLAND3C_500_1_24/0": [
+      "{{u}}",
+      1261309,
+      8874
+    ],
+    "Experiment_g/Responses_g/cmg3t/.zarray": "{\n    \"chunks\": [\n        87\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S87\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        87\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/cmg3t/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/cmg3t/0": [
+      "{{u}}",
+      1326124,
+      7569
+    ],
+    "Experiment_g/Responses_g/gs11v/.zarray": "{\n    \"chunks\": [\n        85\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S90\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        85\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/gs11v/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/gs11v/0": [
+      "{{u}}",
+      1253659,
+      7650
+    ],
+    "Experiment_g/Responses_g/rt125a_500_1_32/.zarray": "{\n    \"chunks\": [\n        516\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S87\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        516\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/rt125a_500_1_32/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/rt125a_500_1_32/0": [
+      "{{u}}",
+      1208767,
+      44892
+    ],
+    "Experiment_g/Responses_g/rt130_100_1_1/.zarray": "{\n    \"chunks\": [\n        643\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S87\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        643\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/rt130_100_1_1/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/rt130_100_1_1/0": [
+      "{{u}}",
+      1270183,
+      55941
+    ],
+    "Experiment_g/Sorts_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Sorts_g/.zgroup": "{\n    \"zarr_format\": 2\n}"
+  },
+  "templates": {
+    "u": ""
+  },
+  "version": 1
+}

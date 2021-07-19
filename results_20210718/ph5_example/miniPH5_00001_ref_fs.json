@@ -1,0 +1,214 @@
+{
+  "refs": {
+    ".zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"PYTABLES_FORMAT_VERSION\": \"2.1\",\n    \"TITLE\": \"PIC KITCHEN HDF5 file, Version = 4.1.2\",\n    \"VERSION\": \"1.0\"\n}",
+    ".zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0001/.zarray": "{\n    \"chunks\": [\n        1638\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"|S40\",\n    \"fill_value\": \"\",\n    \"filters\": [\n        {\n            \"elementsize\": 40,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        378\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"SEG-D header entries: 3X500\"\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0001/0": [
+      "{{u}}",
+      143543,
+      2691
+    ],
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0002/.zarray": "{\n    \"chunks\": [\n        1638\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"|S40\",\n    \"fill_value\": \"\",\n    \"filters\": [\n        {\n            \"elementsize\": 40,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        1134\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"SEG-D header entries: 3X500\"\n}",
+    "Experiment_g/Maps_g/Das_g_3X500/Hdr_a_0002/0": [
+      "{{u}}",
+      402104,
+      2748
+    ],
+    "Experiment_g/Receivers_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0001/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550849943 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0001/0": [
+      "{{u}}",
+      577628,
+      6422
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0002/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        500\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550849973 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0002/0": [
+      "{{u}}",
+      586642,
+      1510
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0003/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0003/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850003 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0003/0": [
+      "{{u}}",
+      590744,
+      6352
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0004/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        500\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0004/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850033 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0004/0": [
+      "{{u}}",
+      599824,
+      1502
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0005/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        4000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0005/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850060 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0005/0": [
+      "{{u}}",
+      603918,
+      8541
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0006/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        500\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0006/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850093 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0006/0": [
+      "{{u}}",
+      615051,
+      1498
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0007/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0007/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850123 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0007/0": [
+      "{{u}}",
+      619141,
+      6445
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0008/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        500\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0008/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850153 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0008/0": [
+      "{{u}}",
+      628530,
+      1488
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0009/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0009/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1550850183 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Data_a_0009/0": [
+      "{{u}}",
+      640766,
+      6145
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/Event_a_0001/.zarray": "{\n    \"chunks\": [\n        23\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S22\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        23\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Event_a_0001/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Texan Event Table\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/Event_a_0001/0": [
+      "{{u}}",
+      640260,
+      506
+    ],
+    "Experiment_g/Receivers_g/Das_g_12183/SOH_a_0010/.zarray": "{\n    \"chunks\": [\n        65\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S82\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        65\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/SOH_a_0010/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Texan State of Health\"\n}",
+    "Experiment_g/Receivers_g/Das_g_12183/SOH_a_0010/0": [
+      "{{u}}",
+      632882,
+      5330
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0001/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294400 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0001/0": [
+      "{{u}}",
+      107184,
+      36359
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0002/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294430 Channel: 1\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0002/0": [
+      "{{u}}",
+      148826,
+      25952
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0003/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0003/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294400 Channel: 2\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0003/0": [
+      "{{u}}",
+      177370,
+      53580
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0004/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0004/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294430 Channel: 2\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0004/0": [
+      "{{u}}",
+      233678,
+      53563
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0005/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0005/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294400 Channel: 3\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0005/0": [
+      "{{u}}",
+      289833,
+      53563
+    ],
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0006/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        15000\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0006/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"Epoch: 1502294430 Channel: 3\"\n}",
+    "Experiment_g/Receivers_g/Das_g_3X500/Data_a_0006/0": [
+      "{{u}}",
+      348548,
+      53556
+    ],
+    "Experiment_g/Receivers_g/Das_g_5553/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00001/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        2001\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00001/0": [
+      "{{u}}",
+      721839,
+      2898
+    ],
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00002/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        1001\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00002/0": [
+      "{{u}}",
+      727225,
+      1559
+    ],
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00003/.zarray": "{\n    \"chunks\": [\n        1740\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S1\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        1740\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00003/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"numpy\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_5553/Data_a_00003/0": [
+      "{{u}}",
+      730832,
+      1740
+    ],
+    "Experiment_g/Receivers_g/Das_g_9EEF/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0001/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3788\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0001/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0001/0": [
+      "{{u}}",
+      479652,
+      4542
+    ],
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0002/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3788\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0002/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0002/0": [
+      "{{u}}",
+      486682,
+      4475
+    ],
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0003/.zarray": "{\n    \"chunks\": [\n        16384\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"<i4\",\n    \"fill_value\": 0,\n    \"filters\": [\n        {\n            \"elementsize\": 4,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        3788\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0003/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Data_a_0003/0": [
+      "{{u}}",
+      493645,
+      4492
+    ],
+    "Experiment_g/Receivers_g/Das_g_9EEF/Log_a_0004/.zarray": "{\n    \"chunks\": [\n        819\n    ],\n    \"compressor\": {\n        \"id\": \"zlib\",\n        \"level\": 6\n    },\n    \"dtype\": \"|S80\",\n    \"fill_value\": \"\",\n    \"filters\": [\n        {\n            \"elementsize\": 80,\n            \"id\": \"shuffle\"\n        }\n    ],\n    \"order\": \"C\",\n    \"shape\": [\n        54\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Log_a_0004/.zattrs": "{\n    \"CLASS\": \"EARRAY\",\n    \"EXTDIM\": 0,\n    \"VERSION\": \"1.1\",\n    \"_ARRAY_DIMENSIONS\": [],\n    \"description\": \"RT-130 log entries\"\n}",
+    "Experiment_g/Receivers_g/Das_g_9EEF/Log_a_0004/0": [
+      "{{u}}",
+      501297,
+      1427
+    ],
+    "Experiment_g/Reports_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Reports_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Responses_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Sorts_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Sorts_g/.zgroup": "{\n    \"zarr_format\": 2\n}"
+  },
+  "templates": {
+    "u": ""
+  },
+  "version": 1
+}

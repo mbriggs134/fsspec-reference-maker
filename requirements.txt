@@ -1,1 +1,3 @@
 fsspec
+h5py
+zarr

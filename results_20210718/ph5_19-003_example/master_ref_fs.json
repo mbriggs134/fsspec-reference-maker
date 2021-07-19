@@ -1,0 +1,29 @@
+{
+  "refs": {
+    ".zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"PYTABLES_FORMAT_VERSION\": \"2.1\",\n    \"TITLE\": \"PIC KITCHEN HDF5 file, Version = 4.1.2\",\n    \"VERSION\": \"1.0\"\n}",
+    ".zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Maps_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Maps_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Receivers_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Receivers_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Reports_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Reports_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Responses_g/.zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/ZLAND3C_250_1_12/.zarray": "{\n    \"chunks\": [\n        89\n    ],\n    \"compressor\": null,\n    \"dtype\": \"|S87\",\n    \"fill_value\": \"\",\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        89\n    ],\n    \"zarr_format\": 2\n}",
+    "Experiment_g/Responses_g/ZLAND3C_250_1_12/.zattrs": "{\n    \"CLASS\": \"ARRAY\",\n    \"FLAVOR\": \"python\",\n    \"VERSION\": \"2.4\",\n    \"_ARRAY_DIMENSIONS\": []\n}",
+    "Experiment_g/Responses_g/ZLAND3C_250_1_12/0": [
+      "{{u}}",
+      501806,
+      7743
+    ],
+    "Experiment_g/Sorts_g/.zattrs": "{\n    \"CLASS\": \"GROUP\",\n    \"TITLE\": \"\",\n    \"VERSION\": \"1.0\"\n}",
+    "Experiment_g/Sorts_g/.zgroup": "{\n    \"zarr_format\": 2\n}"
+  },
+  "templates": {
+    "u": ""
+  },
+  "version": 1
+}
