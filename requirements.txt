@@ -1,3 +1,5 @@
 fsspec
 h5py
 zarr
+pandas
+matplotlib
