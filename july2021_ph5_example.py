@@ -9,10 +9,10 @@ import glob
 
 #%% Consts
 PH5_FOLDER = '/mnt/hgfs/ssd_tmp/ph5_19-003_example/'
-OUTDIR = 'results_20210718/ph5_19-003_example/'
+OUTDIR = 'results_live/ph5_19-003_example/'
 
 # PH5_FOLDER = '/mnt/hgfs/ssd_tmp/ph5_example/'
-# OUTDIR = 'results_20210718/ph5_example/'
+# OUTDIR = 'results_live/ph5_example/'
 if not os.path.exists(OUTDIR):
     os.makedirs(OUTDIR)
 
@@ -42,7 +42,7 @@ for ph5_filename in glob.glob(PH5_FOLDER+'*.ph5'):
     # Translate PH5 Master file
     # h5chunks = hdf.SingleHdf5ToZarr(ph5master_example, '') # Throws error decoding metadata: 0
 
-    # Use simple clone of hdf.py but skipping nested and zero strucures
+    # Use simple clone of hdf.py but skipping nested and zero structures
     h5chunks = ph5.SingleHdf5ToZarr(ph5master_example, '')
     ph5master_reference_json = h5chunks.translate()
 

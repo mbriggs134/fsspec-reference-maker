@@ -194,6 +194,7 @@ class SingleHdf5ToZarr:
 
             if self.is_h5obj_nested(h5obj):
                 lggr.warning(f'Skipping nested structure {h5obj.name} for now')
+                unnested_h5obj = h5py.Dataset
             elif h5obj.size == 0:
                 lggr.warning(f'Skipping zero sized object {h5obj.name} for now')
             else:
