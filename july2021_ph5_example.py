@@ -11,6 +11,7 @@ import glob
 PH5_FOLDER = '/mnt/hgfs/ssd_tmp/ph5_19-003_example/'
 OUTDIR = 'results_live/ph5_19-003_example/'
 
+
 # PH5_FOLDER = '/mnt/hgfs/ssd_tmp/ph5_example/'
 # OUTDIR = 'results_live/ph5_example/'
 if not os.path.exists(OUTDIR):
@@ -31,6 +32,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
 logger = logging.getLogger(__name__)
 
 for ph5_filename in glob.glob(PH5_FOLDER+'*.ph5'):
+    uri = f'file://{ph5_filename}'
     logger.info(f'Loading {ph5_filename}')
     ph5_basename = os.path.splitext(os.path.basename(ph5_filename))[0]
     ref_outfile = os.path.join(OUTDIR, f'{ph5_basename}_ref_fs.json')
@@ -43,7 +45,7 @@ for ph5_filename in glob.glob(PH5_FOLDER+'*.ph5'):
     # h5chunks = hdf.SingleHdf5ToZarr(ph5master_example, '') # Throws error decoding metadata: 0
 
     # Use simple clone of hdf.py but skipping nested and zero structures
-    h5chunks = ph5.SingleHdf5ToZarr(ph5master_example, '')
+    h5chunks = ph5.SingleHdf5ToZarr(ph5master_example, uri)
     ph5master_reference_json = h5chunks.translate()
 
     ph5master_example.close()

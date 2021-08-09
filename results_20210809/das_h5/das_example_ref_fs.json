@@ -1,0 +1,241 @@
+{
+  "refs": {
+    ".zgroup": "{\n    \"zarr_format\": 2\n}",
+    "Acoustic/.zarray": "{\n    \"chunks\": [\n        546,\n        960\n    ],\n    \"compressor\": null,\n    \"dtype\": \"<i2\",\n    \"fill_value\": 0,\n    \"filters\": null,\n    \"order\": \"C\",\n    \"shape\": [\n        24750,\n        960\n    ],\n    \"zarr_format\": 2\n}",
+    "Acoustic/.zattrs": "{\n    \"Acoustic Output\": \"Differential\",\n    \"Attenuator 1\": \"0\",\n    \"Attenuator 2\": \"0.870537\",\n    \"CPUTimeStamp\": \"18/11/2019 12:26:58.773 (UTC)\",\n    \"Continuous Mode\": \"False\",\n    \"Decimation Filter\": \"True\",\n    \"Defragmented\": \"False\",\n    \"Diagnostic Output\": \"R, S, As & dP\",\n    \"Diff Amplify Factor\": \"0\",\n    \"Fibre Length Multiplier\": \"1.020952\",\n    \"Fibre Length per Metre\": \"1\",\n    \"FibreIndex\": \"1.4682\",\n    \"GPSTimeStamp\": \"18/11/2019 12:26:58.769 (UTC)\",\n    \"GaugeLength\": \"10\",\n    \"ISO8601 Timestamp\": \"2019-11-18T12:26:58.769+00:00\",\n    \"Integration Cut Off (Hz)\": \"3.14\",\n    \"MeasureLength[m]\": \"960\",\n    \"Normalization\": \"True\",\n    \"OffsetLength\": \"64\",\n    \"OutputDecimation[bool]\": \"4\",\n    \"P\": \"5\",\n    \"P Coefficients\": \"1.00\\t1.00\\t1.00\\t1.00\\t1.00\\r\\n\",\n    \"Peak Voltage 2 (V)\": \"0\",\n    \"PeakVoltage[V]\": \"2\",\n    \"Power Decrement\": \"0\",\n    \"PreTrigSamples\": \"94\",\n    \"Precise Sampling Frequency (Hz)\": \"90009.0009\",\n    \"Pulse 2 Delay (ns)\": \"500\",\n    \"Pulse Width 2 (ns)\": \"50\",\n    \"PulseWidth[ns]\": \"50\",\n    \"Receiver Gain\": \"41.00\\t41.00\\t41.00\\r\\n\",\n    \"Reference Level 1\": \"65535\",\n    \"Reference Level 2\": \"62567\",\n    \"Reference Level 3\": \"59528\",\n    \"Reference length\": \"0\",\n    \"SamplingFrequency[Hz]\": \"5000\",\n    \"SavingBandwidth (MB/s)\": \"350\",\n    \"Source Mode\": \"Normal\",\n    \"SpatialResolution[m]\": \"1\",\n    \"Start Distance (m)\": \"-125.020952\",\n    \"StartPosition[m]\": \"96.544731\",\n    \"Stop Distance (m)\": \"854.093337\",\n    \"StreamTime[s]\": \"5\",\n    \"SystemInfomation.Chassis.FanRPMs\": \"0.00\\t0.00\\t0.00\\r\\n\",\n    \"SystemInfomation.Chassis.Model\": \"\",\n    \"SystemInfomation.Chassis.SerialNum\": \"\",\n    \"SystemInfomation.Chassis.TempReadings\": \"0.00\\t0.00\\t0.00\\t0.00\\t0.00\\t0.00\\t0.00\\t0.00\\r\\n\",\n    \"SystemInfomation.Chassis.VoltReadings\": \"0.00\\t0.00\\t0.00\\t0.00\\t0.00\\r\\n\",\n    \"SystemInfomation.Devices0.Model\": \"6683\",\n    \"SystemInfomation.Devices0.SerialNum\": \"01A4D486\",\n    \"SystemInfomation.Devices1.Model\": \"GPIB\",\n    \"SystemInfomation.Devices1.SerialNum\": \"0307FB5E\",\n    \"SystemInfomation.GPS.Altitude\": \"0\",\n    \"SystemInfomation.GPS.Latitude\": \"0\",\n    \"SystemInfomation.GPS.Longitude\": \"0\",\n    \"SystemInfomation.GPS.SatellitesAvailable\": \"0\",\n    \"SystemInfomation.GPS.SelfSurvey\": \"0\",\n    \"SystemInfomation.GPS.Status\": \"Uninitialized\",\n    \"SystemInfomation.GPS.TimeReference\": \"GPS\",\n    \"SystemInfomation.GPS.UTCOffset\": \"NaN\",\n    \"SystemInfomation.OS.DST\": \"0\",\n    \"SystemInfomation.OS.HostName\": \"iDAS15040\",\n    \"SystemInfomation.OS.TimeZone\": \"UTC+00:00 Coordinated Universal Time\",\n    \"SystemInfomation.OS.Version\": \"Windows 7 Professional Service Pack 1\",\n    \"SystemInfomation.ProcessingUnit.APIRevision.ADQAPI\": \"18313\",\n    \"SystemInfomation.ProcessingUnit.APIRevision.UserAPI\": \"775\",\n    \"SystemInfomation.ProcessingUnit.APIRevision.UserLogic\": \"794\",\n    \"SystemInfomation.ProcessingUnit.FPGA1.Firmware\": \"1.4P1\",\n    \"SystemInfomation.ProcessingUnit.FPGA1.Model\": \"AA-14-2\",\n    \"SystemInfomation.ProcessingUnit.FPGA1.SerialNum\": \"02831\",\n    \"SystemInfomation.ProcessingUnit.FPGA1.TempReadings\": \"39.12\\t65.44\\t69.78\\t40.12\\t47.37\\r\\n\",\n    \"SystemInfomation.ProcessingUnit.FPGA2.Firmware\": \"\",\n    \"SystemInfomation.ProcessingUnit.FPGA2.Model\": \"\",\n    \"SystemInfomation.ProcessingUnit.FPGA2.SerialNum\": \"\",\n    \"SystemInfomation.ProcessingUnit.FPGA2.TempReadings\": \"0.00\\r\\n\",\n    \"Tags\": \"\",\n    \"Time Decimation\": \"18\",\n    \"Unit Calibration (nm)\": \"116\",\n    \"UserZeroRef\": \"0\",\n    \"Window\": \"0\",\n    \"Zero Offset (m)\": \"-125.020952\",\n    \"_ARRAY_DIMENSIONS\": [\n        \"phony_dim_0\",\n        \"phony_dim_1\"\n    ],\n    \"iDASClockSource\": \"AA Onboard PLL\",\n    \"iDASVersion\": \"2.4.1.111\"\n}",
+    "Acoustic/0.0": [
+      "{{u}}",
+      15664,
+      1048320
+    ],
+    "Acoustic/1.0": [
+      "{{u}}",
+      1063984,
+      1048320
+    ],
+    "Acoustic/10.0": [
+      "{{u}}",
+      10498864,
+      1048320
+    ],
+    "Acoustic/11.0": [
+      "{{u}}",
+      11547184,
+      1048320
+    ],
+    "Acoustic/12.0": [
+      "{{u}}",
+      12595504,
+      1048320
+    ],
+    "Acoustic/13.0": [
+      "{{u}}",
+      13643824,
+      1048320
+    ],
+    "Acoustic/14.0": [
+      "{{u}}",
+      14692144,
+      1048320
+    ],
+    "Acoustic/15.0": [
+      "{{u}}",
+      15740464,
+      1048320
+    ],
+    "Acoustic/16.0": [
+      "{{u}}",
+      16788784,
+      1048320
+    ],
+    "Acoustic/17.0": [
+      "{{u}}",
+      17837104,
+      1048320
+    ],
+    "Acoustic/18.0": [
+      "{{u}}",
+      18885424,
+      1048320
+    ],
+    "Acoustic/19.0": [
+      "{{u}}",
+      19933744,
+      1048320
+    ],
+    "Acoustic/2.0": [
+      "{{u}}",
+      2112304,
+      1048320
+    ],
+    "Acoustic/20.0": [
+      "{{u}}",
+      20982064,
+      1048320
+    ],
+    "Acoustic/21.0": [
+      "{{u}}",
+      22030384,
+      1048320
+    ],
+    "Acoustic/22.0": [
+      "{{u}}",
+      23078704,
+      1048320
+    ],
+    "Acoustic/23.0": [
+      "{{u}}",
+      24127024,
+      1048320
+    ],
+    "Acoustic/24.0": [
+      "{{u}}",
+      25175344,
+      1048320
+    ],
+    "Acoustic/25.0": [
+      "{{u}}",
+      26223664,
+      1048320
+    ],
+    "Acoustic/26.0": [
+      "{{u}}",
+      27271984,
+      1048320
+    ],
+    "Acoustic/27.0": [
+      "{{u}}",
+      28320304,
+      1048320
+    ],
+    "Acoustic/28.0": [
+      "{{u}}",
+      29368624,
+      1048320
+    ],
+    "Acoustic/29.0": [
+      "{{u}}",
+      30416944,
+      1048320
+    ],
+    "Acoustic/3.0": [
+      "{{u}}",
+      3160624,
+      1048320
+    ],
+    "Acoustic/30.0": [
+      "{{u}}",
+      31465264,
+      1048320
+    ],
+    "Acoustic/31.0": [
+      "{{u}}",
+      32513584,
+      1048320
+    ],
+    "Acoustic/32.0": [
+      "{{u}}",
+      33561904,
+      1048320
+    ],
+    "Acoustic/33.0": [
+      "{{u}}",
+      34610224,
+      1048320
+    ],
+    "Acoustic/34.0": [
+      "{{u}}",
+      35658544,
+      1048320
+    ],
+    "Acoustic/35.0": [
+      "{{u}}",
+      36706864,
+      1048320
+    ],
+    "Acoustic/36.0": [
+      "{{u}}",
+      37755184,
+      1048320
+    ],
+    "Acoustic/37.0": [
+      "{{u}}",
+      38803504,
+      1048320
+    ],
+    "Acoustic/38.0": [
+      "{{u}}",
+      39851824,
+      1048320
+    ],
+    "Acoustic/39.0": [
+      "{{u}}",
+      40900144,
+      1048320
+    ],
+    "Acoustic/4.0": [
+      "{{u}}",
+      4208944,
+      1048320
+    ],
+    "Acoustic/40.0": [
+      "{{u}}",
+      41948464,
+      1048320
+    ],
+    "Acoustic/41.0": [
+      "{{u}}",
+      42996784,
+      1048320
+    ],
+    "Acoustic/42.0": [
+      "{{u}}",
+      44045104,
+      1048320
+    ],
+    "Acoustic/43.0": [
+      "{{u}}",
+      45093424,
+      1048320
+    ],
+    "Acoustic/44.0": [
+      "{{u}}",
+      46141744,
+      1048320
+    ],
+    "Acoustic/45.0": [
+      "{{u}}",
+      47190064,
+      1048320
+    ],
+    "Acoustic/5.0": [
+      "{{u}}",
+      5257264,
+      1048320
+    ],
+    "Acoustic/6.0": [
+      "{{u}}",
+      6305584,
+      1048320
+    ],
+    "Acoustic/7.0": [
+      "{{u}}",
+      7353904,
+      1048320
+    ],
+    "Acoustic/8.0": [
+      "{{u}}",
+      8402224,
+      1048320
+    ],
+    "Acoustic/9.0": [
+      "{{u}}",
+      9450544,
+      1048320
+    ]
+  },
+  "templates": {
+    "u": "file:///mnt/hgfs/ssd_tmp/das_example.h5"
+  },
+  "version": 1
+}

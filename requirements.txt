@@ -3,3 +3,5 @@ h5py
 zarr
 pandas
 matplotlib
+xarray
+s3fs
